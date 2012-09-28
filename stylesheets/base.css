@@ -429,20 +429,20 @@ label, .label {
   margin: 0 0 5em 10%;
   width: 80%; }
   .palette .colorBar.base {
-    background: #6ea600; }
+    background: #a60017; }
   .palette .colorBar.pale {
-    background: #bec99a; }
+    background: #c99aa5; }
   .palette .colorBar.dark {
-    background: #303b15; }
+    background: #3b151c; }
   .palette .colorBar.complement {
-    background: #5100a6; }
+    background: #00a4a6; }
   .palette .colorBar.neighbor {
-    background: #a62700; }
+    background: #7e00a6; }
 
 .test {
   background: white; }
   .test .colorBar {
-    background: #6ea600;
+    background: #a60017;
     height: 200px;
     margin: 0 0 5em 10%;
     width: 80%; }
@@ -450,12 +450,83 @@ label, .label {
     color: red; }
   .test .text-complement {
     color: blue; }
-  .test .button {
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff0000), color-stop(100%, #0000ff));
-    background-image: -webkit-linear-gradient(#ff0000, #0000ff);
-    background-image: -moz-linear-gradient(#ff0000, #0000ff);
-    background-image: -o-linear-gradient(#ff0000, #0000ff);
-    background-image: linear-gradient(#ff0000, #0000ff);
-    border: none;
-    border-radius: 2em;
+  .test .button-1 {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #197bbd), color-stop(100%, #135480));
+    background-image: -webkit-linear-gradient(#197bbd, #135480);
+    background-image: -moz-linear-gradient(#197bbd, #135480);
+    background-image: -o-linear-gradient(#197bbd, #135480);
+    background-image: linear-gradient(#197bbd, #135480);
+    border-color: #135480;
+    box-shadow: 0 0 0 #399fe4;
+    color: white;
+    text-shadow: 0 -1px 1px #0d3753;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.25em;
     padding: 0.75em 2em; }
+    .test .button-1:hover {
+      box-shadow: 0 0 30px #399fe4; }
+  .test .button-2 {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffb01f), color-stop(100%, #d98d02));
+    background-image: -webkit-linear-gradient(#ffb01f, #d98d02);
+    background-image: -moz-linear-gradient(#ffb01f, #d98d02);
+    background-image: -o-linear-gradient(#ffb01f, #d98d02);
+    background-image: linear-gradient(#ffb01f, #d98d02);
+    border-color: #d98d02;
+    box-shadow: 0 0 0 #ffc966;
+    color: white;
+    text-shadow: 0 -1px 1px #a66c03;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.25em;
+    padding: 0.75em 2em; }
+    .test .button-2:hover {
+      box-shadow: 0 0 30px #ffc966; }
+  .test .button-3 {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9f009f), color-stop(100%, #5b015b));
+    background-image: -webkit-linear-gradient(#9f009f, #5b015b);
+    background-image: -moz-linear-gradient(#9f009f, #5b015b);
+    background-image: -o-linear-gradient(#9f009f, #5b015b);
+    background-image: linear-gradient(#9f009f, #5b015b);
+    border-color: #5b015b;
+    box-shadow: 0 0 0 #e600e6;
+    color: white;
+    text-shadow: 0 -1px 1px #290129;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.25em;
+    padding: 0.75em 2em; }
+    .test .button-3:hover {
+      box-shadow: 0 0 30px #e600e6; }
+  .test .button-4 {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d8d7d7), color-stop(100%, #b6b6b6));
+    background-image: -webkit-linear-gradient(#d8d7d7, #b6b6b6);
+    background-image: -moz-linear-gradient(#d8d7d7, #b6b6b6);
+    background-image: -o-linear-gradient(#d8d7d7, #b6b6b6);
+    background-image: linear-gradient(#d8d7d7, #b6b6b6);
+    border-color: #b6b6b6;
+    box-shadow: 0 0 0 #fbfbfb;
+    color: white;
+    text-shadow: 0 -1px 1px #9d9d9d;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.25em;
+    padding: 0.75em 2em; }
+    .test .button-4:hover {
+      box-shadow: 0 0 30px #fbfbfb; }
