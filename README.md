@@ -1,4 +1,3 @@
-color-function-generator-thing
-==============================
+# Color Function Generator Thing
 
-This takes two colors and spits out the relationship between them in the form of a SASS function
+This eats two colors and poops out the relationship between them in the form of a SASS function
