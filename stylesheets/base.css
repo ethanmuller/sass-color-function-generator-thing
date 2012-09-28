@@ -416,7 +416,7 @@ label, .label {
     outline: none; }
 
 #functionOutput {
-  background: #f2ffe5;
+  background: #e0e8d4;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
   color: #333333;
   display: block;
@@ -429,20 +429,20 @@ label, .label {
   margin: 0 0 5em 10%;
   width: 80%; }
   .palette .colorBar.base {
-    background: #a60017; }
+    background: chartreuse; }
   .palette .colorBar.pale {
-    background: #c99aa5; }
+    background: #e0e8d4; }
   .palette .colorBar.dark {
-    background: #3b151c; }
+    background: #597d2c; }
   .palette .colorBar.complement {
-    background: #00a4a6; }
+    background: #a600ff; }
   .palette .colorBar.neighbor {
-    background: #7e00a6; }
+    background: #ff6700; }
 
 .test {
   background: white; }
   .test .colorBar {
-    background: #a60017;
+    background: chartreuse;
     height: 200px;
     margin: 0 0 5em 10%;
     width: 80%; }
